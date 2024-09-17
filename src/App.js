@@ -1,23 +1,90 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Card from './card/Card';
+import Section from './components/section/Section';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Section
+        title="Plans+"
+        tagText="red"
+        tagColor="red"
+      >
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="red"
+        />
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="red"
+        />
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="red"
+        />
+      </Section>
+
+      <Section
+        title="New member"
+        tagText="green"
+        tagColor="green"
+      >
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="green"
+        />
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="green"
+        />
+        <Card
+          title="Free" 
+          items={[
+            {text: "PNG templates", state: "enabled"},
+            {text: "Figma responsive components", state: "disabled"},
+            {text: "Constant updates", state: "disabled"},
+            {text: "Custom templates", state: "disabled"},
+          ]}
+          price="0"
+          color="green"
+        />
+      </Section>
     </div>
   );
 }

@@ -1,0 +1,72 @@
+.card {
+    padding: 32px;
+    background-color: #FFFFFF;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    color: #3A4F39;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.card ul {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.card li {
+    max-width: 200px;
+    margin-bottom: 24px;
+}
+
+.card li img {
+    padding-right: 2px;
+}
+
+.card h5 {
+    color: #2D2E2E;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.card h6 {
+    color: #2D2E2E;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card button {
+    margin-top: 32px;
+    height: 50px;
+    width: 170px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.red {
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.enabled {
+    color: #2D2E2E;
+}
+
+.disabled {
+    color: #aaaaaa
+}

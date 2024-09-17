@@ -23,25 +23,25 @@ function App() {
           color="red"
         />
         <Card
-          title="Free" 
+          title="Premium" 
           items={[
             {text: "PNG templates", state: "enabled"},
-            {text: "Figma responsive components", state: "disabled"},
+            {text: "Figma responsive components", state: "enabled"},
             {text: "Constant updates", state: "disabled"},
             {text: "Custom templates", state: "disabled"},
           ]}
-          price="0"
+          price="99"
           color="red"
         />
         <Card
-          title="Free" 
+          title="Pro" 
           items={[
             {text: "PNG templates", state: "enabled"},
-            {text: "Figma responsive components", state: "disabled"},
-            {text: "Constant updates", state: "disabled"},
-            {text: "Custom templates", state: "disabled"},
+            {text: "Figma responsive components", state: "enabled"},
+            {text: "Constant updates", state: "enabled"},
+            {text: "Custom templates", state: "enabled"},
           ]}
-          price="0"
+          price="199"
           color="red"
         />
       </Section>
@@ -63,25 +63,25 @@ function App() {
           color="green"
         />
         <Card
-          title="Free" 
+          title="Premium" 
           items={[
             {text: "PNG templates", state: "enabled"},
-            {text: "Figma responsive components", state: "disabled"},
+            {text: "Figma responsive components", state: "enabled"},
             {text: "Constant updates", state: "disabled"},
             {text: "Custom templates", state: "disabled"},
           ]}
-          price="0"
+          price="99"
           color="green"
         />
         <Card
-          title="Free" 
+          title="Pro" 
           items={[
             {text: "PNG templates", state: "enabled"},
-            {text: "Figma responsive components", state: "disabled"},
-            {text: "Constant updates", state: "disabled"},
-            {text: "Custom templates", state: "disabled"},
+            {text: "Figma responsive components", state: "enabled"},
+            {text: "Constant updates", state: "enabled"},
+            {text: "Custom templates", state: "enabled"},
           ]}
-          price="0"
+          price="199"
           color="green"
         />
       </Section>
